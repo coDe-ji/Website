@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="scripts.js"></script>
+	<title>Players|Info</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("img").hide();
+    });
+    $("#show").click(function(){
+        $("img").show();
+    });
+});
+</script>
+</head>
+<body>
+	<div class="row">
+			<h1 class="col-sm-8">Player Profiles</h1>
+			<ul class="col-sm-4 text-right">
+				<a href="./index.html">Homepage</a>
+				<a href="./fixtures.html">Fixtures</a>
+				<a href="./leagueTable.html">League Table</a>
+		    </ul>
+		</div>  
+	<div class="Players">
+		<h2>Team Captain</h2>
+		<a href="https://en.wikipedia.org/wiki/Eden_Hazard" target="_blank"><img class="Captain" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/DK-Chel15_%288%29.jpg/220px-DK-Chel15_%288%29.jpg"/></a>
+		<button id="hide">Hide Picture</button>
+		<button id="show">Show Picture</button> 
+</body>
+</html>
